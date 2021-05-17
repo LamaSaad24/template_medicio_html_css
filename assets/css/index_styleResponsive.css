@@ -1,0 +1,95 @@
+@media screen and (max-width:576px){
+    /* body{
+        background:red;
+    } */
+    .header__top .container{
+        justify-content:center!important;
+    }
+    .header__top__item.hide{
+        display:none;
+    }
+    /* .splide__slide img{
+        height: 100%;
+    } */
+    .navbar-brand{
+        height:50% !important;
+        margin:auto 0;
+    }
+}
+@media screen and (max-width:768px) and (min-width:577px){
+    /* body{
+        background:green;
+    
+    } */
+    .header__top .container{
+        justify-content:center!important;
+    }
+    .header__top__item.hide{
+        display:none;
+    }
+    .splide__slide img{
+        height: 100%;
+    }
+}
+@media screen and (max-width:991px){
+    header{
+        position: relative;
+    }
+    #collapsibleNavId{
+        position: absolute;
+        background-color: rgba(0, 0, 0, .7);
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+    .collapse-body{
+        background-color: #FFF;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        width: 80%;
+        margin: 5rem auto;
+        position: relative;
+    }
+    .btn-close{
+        display: block!important;
+        display: block!important;
+        border: none;
+        color: #FFF;
+        background: transparent;
+        margin-left: auto;
+        position: absolute;
+        top: -2rem;
+        right: 0;
+    }
+
+    .dropdownIn-menu {
+        top: 0!important;
+        left: 85%!important;
+        z-index: 999;
+        /* background: transparent!important; */
+    }
+    .dropdown-menu{
+        position: absolute!important;
+        top: 0!important;
+        left: 22%;
+        /* background: transparent!important; */
+    }
+    .dropdown-toggle::after {
+        border-bottom: none!important;
+        border-top: 1px solid #626262!important;
+        border-right: 1px solid #626262!important;
+        
+    }
+}
+@media screen and (max-width:1199px){
+    .navbar-appointment .lg{
+        display: none!important;
+    }
+    .navbar-appointment .sm{
+        display: inline!important;
+    }
+    .splide__slide img{
+        height: 100%;
+    }
+}
